@@ -1,0 +1,117 @@
+/* this is experieince section */
+.experience-body {
+    background: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.experience-left {
+    width: 458.67px;
+    height: 288px;
+    left: 193px;
+}
+.etitle1 h4 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    width: 99px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+}
+.etitle1 h1 {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    width: 322px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+}
+.experience-left p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 800px;
+    line-height: 28px;
+    text-align: left;
+    width: 458.67px;
+    height: 168px;
+    top: 1537px;
+    left: 193px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+}
+.job {
+    border-bottom: 1px solid white;
+}
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.etime {
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    width: 175px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+}
+
+.etext { 
+    height: 24px;
+    left: 378.25px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.etext2 h3 {  
+    height: 48px;
+    top: 36px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #fff;
+}
+@media only screen and (max-width: 600px){
+    .experience-body{
+        flex-direction: column;
+    }
+    .etitle1 h4{
+        font-size: 16px;
+    }
+    .etitle1 h1{
+        font-size: 20px;
+    }
+    .etext2 h3{
+        font-size: 20px;
+        
+    }
+}

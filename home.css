@@ -1,0 +1,146 @@
+/* home section */
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home {
+    text-align: left;
+    background: #333;
+    padding: 4rem 2rem;
+}
+
+#home h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+#home h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+#home h2 span {
+    color: #ff6600;
+}
+
+#home p {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.home-left h1 {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 800;
+
+    text-align: left;
+}
+
+.home-left h2 {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 800;
+
+    text-align: left;
+}
+
+.home-left p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justified;
+
+}
+
+.services span {
+    display: inline-block;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cta {
+    border: 1px solid white;
+    border-radius: 50px;
+    display: inline-flex;
+}
+
+
+.cta .btn1 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #FD6F00;
+}
+
+.cta .btn2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pro-pic img {
+    border-radius: 50%;
+}
+
+.rotate {
+    transform: rotate(-3.97deg);
+    display: inline-block;
+    padding: 42px 0px 42px 41px;
+    gap: 15px;
+    overflow: hidden;
+    background: #000;
+    color: #FFFFFF;
+    display: flex;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.rotate span {
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.92px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+@media only screen and (max-width: 600px){
+    .home-container{
+        flex-direction: column;
+    }
+    .rotate{
+        padding: 10px;
+    }
+    .rotate span{
+        font-size: 16px;
+    }
+    #home h1{
+        font-size: 20px;
+    }
+    #home h2{
+        font-size: 20px;
+    }
+    #home p{
+        font-size: 16px;
+    }
+    .pro-pic img{
+        width: 100%;
+    }
+   
+}

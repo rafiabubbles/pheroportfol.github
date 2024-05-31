@@ -1,0 +1,69 @@
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 66px; 
+}
+header .logo {
+    margin-left: 20px;
+    color: #FD6F00;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 10px;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    padding-top: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.nav-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background: #050000;
+    color: #fff;
+    cursor: pointer;
+
+    font-family: Rubik;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.89px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+}
+
+.nav-buttons .active {
+    background: #ff6600;
+}
+
+
+
+
+
+/* Media query for screens with a max-width of 600px */
+@media only screen and (max-width: 600px) {
+    
+ 
+}
+

@@ -1,0 +1,83 @@
+/* this is award section */
+.award {
+    background: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.award-container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+.award-container h1 {
+    margin-bottom: 10px;
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47.4px;
+    letter-spacing: -0.015em;
+}
+.award-container p {
+    margin-bottom: 20px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.award-study {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: left;
+    gap: 30px;
+    background: #000;
+    width: 1041px;
+    height: 219px;
+    padding: 42px 56.5px 41px 55.5px;
+}
+.award-contenth3 {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.award-content p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+@media only screen and (max-width: 600px){
+    .award{
+        flex-direction: column;
+    }
+    .award-content{
+        width: 100%;
+    }
+    .award-container h1{
+        font-size: 20px;
+    }
+    .award-container p{
+        font-size: 16px;
+    }
+  
+    .award-content h3{
+        font-size: 16px;
+        width: fit-content;
+    }
+    .award-content p{
+        font-size: 16px;
+    }
+   
+}

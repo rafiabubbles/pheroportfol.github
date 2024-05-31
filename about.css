@@ -1,0 +1,78 @@
+/* this is about section */
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #333;
+    box-sizing: border-box;
+    color: #f3ecec;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.about1 h1 {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.about1 p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.about-star {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about-star a {
+    color: #ff6600;
+}
+
+.about-experience {
+    text-align: end;
+}
+
+.about-experience h1 {
+    font-family: Rubik;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -0.015em;
+}
+
+.about-experience p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+}
+@media only screen and (max-width: 600px){
+    .about-container{
+        flex-direction:column;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 16px;
+    }
+}
